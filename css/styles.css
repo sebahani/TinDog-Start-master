@@ -8,3 +8,8 @@ h1 {
 #title {
   background-color: #E41749
 }
+
+
+.navbar-nav {
+  margin-left: auto;
+}
