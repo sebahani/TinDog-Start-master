@@ -9,12 +9,25 @@ h1 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+p {
+color:#8f8f8f;
+
+}
 
 #title {
   background-color: #E41749;
   color: white;
 
 }
+
+
 
 
 
@@ -67,21 +80,19 @@ h1 {
 
 
 /* features section */
-
-.row2 {
-  margin: 10%  ;
+#features {
+  text-align: center;
+  padding: 7% 15%;
 }
-.fa-solid {
-  margin: 0 25%;
-  color: #efb172;
-
-}
-.fa-solid .hover {
-  color:#ff4c68;
+.features-box {
+  padding: 10%;
 }
 
-h3 {
-font-family: 'Montserrat-Bold', sans-serif;
-  font-size: 1.5rem;
-
+.icon {
+  color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.icon:hover {
+  color: #ff4c68;
 }
