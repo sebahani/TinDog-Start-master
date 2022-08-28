@@ -58,7 +58,7 @@ p {
 
 /* Download buttons  */
 .download-button {
-  margin: 5% 3% 5% 0
+  margin: 3% 3% 5% 0
 }
 
 /* title image */
@@ -131,4 +131,43 @@ p {
 
 .pricing-col {
   padding: 50px;
+}
+
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*call to action section*/
+
+#cta {
+  background-color: #ff4c68;
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+}
+ .end {
+   color: #fff;
+   font-size: 2rem;
+   font-weight: bold;
+ }
+
+/*footer*/
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+
+}
+
+.contacts {
+  padding: 40px 10px 10px 10px;
+
 }
