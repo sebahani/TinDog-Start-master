@@ -2,22 +2,18 @@ body {
   font-family: 'Montserrat';
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat-SemiBold', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: bold;
+
 }
 
 h2 {
-  font-family: 'Montserrat-SemiBold', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
 h3 {
-  font-family: 'Montserrat-Bold', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -25,6 +21,17 @@ h3 {
 p {
   color: #8f8f8f;
 }
+
+
+/*headings*/
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
 
 #title {
   background-color: #E41749;
@@ -149,14 +156,16 @@ p {
 
 #cta {
   background-color: #ff4c68;
-  height: 200px;
+  height: 400px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 100px;
 }
  .end {
+   font-family: "Montserrat-Bold" , sans-serif;
    color: #fff;
-   font-size: 2rem;
+   font-size: 3.5rem;
    font-weight: bold;
+   line-height: 1.5;
  }
 
 /*footer*/
